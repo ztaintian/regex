@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>search replace</title>
+</head>
+<script>
+	//1、正则 search()  返回位置
+	// let str = 'hellow world'
+	// let num = str.search(/world/i)
+	// console.log(num)
+
+	// let n = str.search('w')
+	// console.log(n)
+
+	//2、正则 replace()  
+	 // let str = 'hellow world'
+	 // let show = str.replace(/world/i,'tian')
+	 // console.log(show)
+	 // let showQ = str.replace('world','zztian')
+	 // console.log(showQ)
+
+	//3、正则 test() 
+	 // let str = 'hellow world'
+	 // let reg = /w/i
+	 // let flag = reg.test(str)
+	 // console.log(flag)
+
+	 //4、正则 exec()
+	 let str = 'hellow world'
+	 let reg = /hellow/i
+	 let backStr = reg.exec(str)
+	 console.log(backStr[0],backStr.index,backStr.input)
+</script>
+<body>
+	
+</body>
+</html>
