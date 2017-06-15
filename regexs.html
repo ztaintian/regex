@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Document</title>
+</head>
+<script>
+	// 1、校验 小数点保留两位 范围0<x<9999999999.99;
+	// let reg = /^([1-9][\d]{0,8}|0)(\.\d{2})$/;
+	// let st = '666'; 
+	// console.log(reg.test(st));
+
+	// 2、校验手机号;
+		let reg = /^1[34578]\d{9}$/;
+		let phone = '13032178152';
+		console.log(reg.test(phone));
+</script>
+<body>
+	
+</body>
+</html>
