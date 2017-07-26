@@ -11,9 +11,13 @@
 	// console.log(reg.test(st));
 
 	// 2、校验手机号;
-		let reg = /^1[34578]\d{9}$/;
-		let phone = '13032178152';
-		console.log(reg.test(phone));
+		// let reg = /^1[34578]\d{9}$/;
+		// let phone = '13032178152';
+		// console.log(reg.test(phone));
+
+	//3、微信提现金额校验
+	let reg = /^([1-9][\d]{0,20}|0)(\.[\d]{1,2})?$/;
+	console.log(reg.test(22.288))
 </script>
 <body>
 	
